@@ -1,0 +1,7 @@
+Continuous Integration
+Continuous Deployment
+
+CI/CD 概念  
+provider  第三方工具 github action
+pipeline 在provider里实现CI/CD的具体代码
+plan - design - develop - test - review - launch

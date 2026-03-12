@@ -11,6 +11,12 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  {
+    files: ["**/*.{js,jsx,ts,tsx}"],  // 所有 JS / TS 文件
+    rules: {
+      "no-undef": "error" // 未定义变量直接红色波浪线
+    }
+  }
 ]);
 
 export default eslintConfig;

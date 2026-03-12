@@ -36,6 +36,9 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
  -->
+
+ npx create-next-app@latest careermate-ai
+
 1. 拆解组件层级结构
 -CareerMateAI app
  - SignUp
